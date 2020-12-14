@@ -1,6 +1,6 @@
 <h1 align="center">Redis Operator</h1>
 
-![Logo](_images/logo.PNG)
+![Logo](_images/logo.png)
 
 Redis operator is Golang based operator that will make/oversee Redis standalone/cluster mode setup on top of the Kubernetes. It can create a redis standalone setup with best practices on Cloud as well as the Bare metal environment. Also, it provides an in-built monitoring capability using redis-exporter.
 
