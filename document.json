@@ -1,0 +1,35 @@
+{
+  "name": "Redis Operator",
+  "description": "Redis Operator",
+  "logo": "_images/SalesStack.png",
+  "has_supporting_content": true,
+  "stack_id": "redis-operator",
+  "type": "stack",
+  "categories": ["Database"],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "meta": {
+    "Database": ["redis"],
+    "Type":[
+         "Operators"
+      ],
+    "Install time": ["5 minutes"]
+  },
+"deployment_information": {
+  "Operator Project": "NA",
+  "Deployment Namespace": "my-redis-operator"
+},
+  "commands": [
+    {
+      "description": "Install Operator",
+      "exec": "kubectl create -f https://operatorhub.io/install/redis-operator.yaml"
+    }
+  ],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ]
+}

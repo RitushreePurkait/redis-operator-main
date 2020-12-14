@@ -1,0 +1,27 @@
+{
+   "name":"Redis Operator Tutorial",
+   "appLayout":"accordion",
+   "appTheme":"g90",
+   "footer":"footer.md",
+   "tutorials":[
+      {
+         "description":"Check Operator Deployment Status",
+         "duration":"5 min",
+         "tutorial_name":"redis_operator_install_verification.md",
+         "title":"Redis Operator status check"
+      },
+      {
+         "description":"A User Guide to create an instance of etcd cluster",
+         "duration":"30 min",
+         "tutorial_name":"create_instance_of_redis.md",
+         "title":"Tutorial to Create instance of etcd cluster "
+      }      
+   ],
+   "usefulLinks":[
+      {
+         "title":"Redis Operator",
+         "description":"Redis Operator ",
+         "url":"https://operatorhub.io/operator/redis-operator"
+      }
+   ]
+}
