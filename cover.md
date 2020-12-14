@@ -8,7 +8,7 @@ For documentation, please refer to https://docs.opstreelabs.in/redis-operator/
 
 ## Architecture
 
-![redis-arch](_images/redis-arch.PNG)
+![redis-arch](_images/redis-arch.png)
 
 ### Purpose
 
