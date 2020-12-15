@@ -16,7 +16,7 @@
   "has_support": true,
   "has_dataset": false,
   "has_api": false,
-  "git_url": "https://github.com/operator-playground-io/redis-operator.git",
+  "git_url": "https://github.com/RitushreePurkait/redis-operator-main.git",
   "git_commit": "1095792ff8849eff7d95abdc7b1b44afb756c46b",
   "installTime": "5 minutes",
   "isStacksSaved": true
