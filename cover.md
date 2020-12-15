@@ -68,14 +68,3 @@ helm upgrade redis ./helm/redis-setup -f ./helm/redis-setup/cluster-values.yaml 
   --set setupMode="standalone" \
   --install --namespace redis-operator
 ```
-
-### Monitoring with Prometheus
-
-To monitor redis performance we will be using prometheus. In any case, extra prometheus configuration will not be required because we will be using the Prometheus service discover pattern. For that we already have set these annotations:-
-
-```
-  annotations:
-    redis.opstreelabs.in: "true"
-    prometheus.io/scrape: "true"
-    prometheus.io/port: "9121"
-```
