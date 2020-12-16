@@ -159,9 +159,11 @@ Warning: Using a password with '-a' or '-u' option on the command line interface
 127.0.0.1:6379>
 ```
 
-In the above output, **127.0.0.1** is your machine's IP address and **6379** is the port on which Redis server is running. Now type the following **PING** command.
+In the above output, **127.0.0.1** is your machine's IP address and **6379** is the port on which Redis server is running.
 
-```execute
+Now type the following **PING** command and press `Enter`
+
+```copycommand
 ping 
 ```
 
@@ -175,9 +177,9 @@ This shows that Redis is working properly.
 
 **Step 3:** Put sample key-value pair into redis database.
 
-Execute below command to put key-value pair.
+Copy below command to put key-value pair and press `Enter`.
 
-```execute
+```copycommand
 set foo bar
 ```
 
@@ -189,9 +191,9 @@ OK
 
 **Step 4:** Retrieving the value by key.
 
-Execute below command to retrieve value of key.
+Copy below command and press `Enter` to retrieve value of key.
 
-```execute
+```copycommand
 get foo
 ```
 
@@ -199,6 +201,12 @@ Sample Output:
 
 ```output
 "bar"
+```
+
+Copy below command and press `Enter` to exit out of the database:
+
+```copycommand
+exit
 ```
 
 Execute below command to exit out of terminal:
