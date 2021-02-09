@@ -214,3 +214,5 @@ Execute below command to exit out of terminal:
 ```execute
 exit
 ```
+```oc project <project_name>```
+
