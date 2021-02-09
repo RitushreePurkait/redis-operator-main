@@ -214,5 +214,10 @@ Execute below command to exit out of terminal:
 ```execute
 exit
 ```
-```oc project <project_name>```
+```oc project <project_namespace>```
 
+
+
+```copycommand
+oc project <project_namespace>
+```
