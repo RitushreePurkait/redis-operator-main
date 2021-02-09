@@ -219,5 +219,5 @@ exit
 
 
 ```copycommand
-oc project <project_namespace>
+oc project ```<project_namespace>```
 ```
